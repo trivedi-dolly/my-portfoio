@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#menu').click(function(){
-        $(this).toggleClass('fa-bars');
-        $('header').toggleClass('fa-bars');
+        $(this).toggleClass("fa-bars fa-times");
+        $('header').toggleClass('toggle');
     })
 })

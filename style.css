@@ -92,10 +92,10 @@ header .user .post{
 header .navbar ul{
     list-style: none;
     padding-top: 39rem;
-    position: fixed;
-    top:0;
-    left: 5.5rem;
-    width:15%;
+    position: absolute;
+    top:4rem;
+    left: 8.5rem;
+    width:48%;
 }
 header .navbar ul li a{
     display: block;
@@ -353,10 +353,15 @@ header .navbar ul li a:hover{
     #menu{
         display: block;
     }
-    .header .toggle{
+    .toggle{
         left: 0%;
     }
     body{
         padding: 0;
+        padding-left: 35rem;
+    }
+    header .navbar ul{
+        position: absolute;
+        top:18rem;
     }
 }
